@@ -19,7 +19,7 @@ runs:
   using: composite
   steps:
     - name: Set up Zig
-      uses: mlugg/setup-zig@v2.2.1
+      uses: eesas-forks/setup-zig@v0.0.1
       with:
         version: master
 
